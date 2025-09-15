@@ -496,3 +496,53 @@ a {
     border: none;
 }
     
+
+#blog-page {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#blog-section {
+    height: 80vh;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+#blog-section h2 {
+    color: rgb(175, 175, 175);
+    font-size: 3rem;
+}
+#news-section {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#news-section > div {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.blog-pic {
+    width: 33vw;
+}
+#news-section > div > p {
+    width: 33vw;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+#news-section > div > div {
+    width: 33vw;
+    display: flex;
+    gap: 2rem;
+}
+.design {
+    font-size: 1.1rem;
+}
+.date {
+    font-size: 1.1rem;
+    color: rgb(87, 87, 87);
+}
