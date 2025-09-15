@@ -14,6 +14,7 @@ html {
     border-radius: 5rem;
     text-align: center;
     width: fit-content;
+    height: 3.5rem;
 }
 a {
     text-decoration: none;
@@ -75,7 +76,7 @@ a {
 
 #main-page {
     position: relative;
-    height: 200vh;
+    height: 160vh;
     width: 100%;
 }
 #header {
@@ -319,3 +320,179 @@ a {
     background-color: rgb(197, 75, 38);
     border-radius: 0.3rem;
 }
+
+
+#portfolio-page {
+    position: relative;
+    background-color: rgb(10, 10, 10);
+    height: 260vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#portfolio-section{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+#portfolio-section h2 {
+    color: rgb(175, 175, 175);
+    font-size: 3rem;
+}
+#portfolio-pictures-section {
+    display: grid;
+    grid-template-areas: "text-p speaker"
+                         "man speaker"
+                         "man cream"
+                         "man cream"
+                         "man cream"
+                         "commercial cream"
+                         "commercial button-view"
+                         "commercial button-view";  
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(8, 10rem);
+    gap: 3rem;    
+}
+#portfolio-text {
+    color: rgb(87, 87, 87);
+    grid-area: text-p;
+    width: 60%;
+}
+.portfolio-pic {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#man-thinking-picture {
+    grid-area: man;
+}
+#speaker-picture {
+    grid-area: speaker;
+}
+#face-cream-picture {
+    grid-area: cream;
+}
+#street-commercial-picture {
+    grid-area: commercial;
+}
+#button-view {
+    grid-area: button-view;
+    color: rgb(175, 175, 175);
+    border: 0.1rem solid rgb(175, 175, 175);
+    align-self: center;
+    justify-self: center;
+}
+
+#pricing-section {
+    width: 100%;
+    height: 15rem;
+    background-color: rgba(218, 93, 56, 0.699);
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    padding: 3rem 8vw;
+}
+#pricing-section p {
+    font-size: 1.8rem;
+    color: rgba(145, 145, 145, 0.671);
+}
+#pricing-section a {
+    color: rgba(0, 0, 0, 0.637);
+    background-color: rgba(145, 145, 145, 0.671);
+    margin-bottom: 1rem;
+}
+
+#icons-section {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    color: rgb(31, 30, 30);
+    right: 0;
+    top: 130rem;
+    background-color: rgb(189, 189, 189);
+}
+#icons-section div {
+    border: 0.1rem solid rgb(31, 30, 30);
+    height: 2rem;
+    width: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#icons-first, #icons-sec, #icons-three {
+    border-bottom: none;
+}
+
+#reviews-section {
+    width: 100%;
+    height: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#review {
+    width: 60%;
+    display: grid;
+    grid-template-areas: "reviewer-pic reviewer-pic reviewer-pic"
+                         "review-text review-text review-text"
+                         "left-arr name-job right-arr";  
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 8rem);
+    gap: 1rem;   
+}
+#reviewer-profile-picture {
+    grid-area: reviewer-pic;
+    width: 8rem;
+    border-radius: 4rem;
+    align-self: flex-start;
+    justify-self: center;
+}
+#review-text {
+    grid-area: review-text;
+    width: 80%;
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+}
+#reviewer-info {
+    grid-area: name-job;
+    text-align: center;
+    align-self: center;
+    justify-content: center;
+}
+#reviewer-name {
+    color: white;
+    font-weight: bold;
+}
+#reviewer-job {
+    color: rgba(145, 145, 145, 0.671);
+    font-weight: bold;
+    margin-top: 1rem;
+}
+#rew-arr-l {
+    grid-area: left-arr;
+    width: 5rem;
+    color: rgba(145, 145, 145, 0.671);
+    background-color: rgb(10, 10, 10);
+    font-size: 2rem;
+    align-self: center;
+    justify-self: end;
+    border: none;
+}
+#rew-arr-r {
+    grid-area: right-arr;
+    width: 5rem;
+    color: rgba(145, 145, 145, 0.671);
+    background-color: rgb(10, 10, 10);
+    font-size: 2rem;
+    align-self: center;
+    justify-self: start;
+    border: none;
+}
+    
