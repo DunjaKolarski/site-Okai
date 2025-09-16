@@ -547,3 +547,27 @@ a {
     font-size: 1.1rem;
     color: rgb(87, 87, 87);
 }
+
+
+#contact-us-page {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#contact-us-page div {
+    height: 100%;
+    width: 99%;
+    background-color: rgba(179, 74, 42, 0.781);
+    display: flex;
+    align-items: flex-end;
+}
+#contact-us-page div p {
+    font-size: 5rem;
+    font-weight: bold;
+    color: rgba(167, 155, 155, 0.733);
+    margin: 15vh 10vw;
+}
+#contact-us-page div p span {
+    color: rgba(168, 89, 58, 0.815);
+}
