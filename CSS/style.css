@@ -58,7 +58,7 @@ a {
 
 
 #container {
-    height: 600vh;
+    height: 570vh;
     width: 100vw;
     background-color: rgb(7, 7, 7);
     display: flex;
@@ -69,7 +69,7 @@ a {
 
 
 #content {
-    height: 600vh;
+    height: 570vh;
     width: 99%;
 }
 
