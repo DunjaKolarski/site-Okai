@@ -402,7 +402,7 @@ a {
 }
 #pricing-section a {
     color: rgba(0, 0, 0, 0.637);
-    background-color: rgba(145, 145, 145, 0.671);
+    background-color: rgba(187, 125, 100, 0.425);
     margin-bottom: 1rem;
 }
 
@@ -569,5 +569,5 @@ a {
     margin: 15vh 10vw;
 }
 #contact-us-page div p span {
-    color: rgba(168, 89, 58, 0.815);
+    color: rgba(187, 125, 100, 0.425);
 }
