@@ -668,3 +668,9 @@ a {
     display: flex;
     gap: 0.5rem;
 }
+
+#black-line-bottom {
+    height: 1vh;
+    width: 100vw;
+    background-color: black;
+}
