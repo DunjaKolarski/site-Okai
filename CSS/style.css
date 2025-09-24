@@ -718,3 +718,473 @@ a {
     width: 100vw;
     background-color: black;
 }
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    html {
+        font-size: 8px;
+    }
+
+    #logo {
+        width: 20vw;
+    }
+
+    #container {
+        height: 330vh;
+    }
+
+    #first-line {
+        height: 3vh;
+        top: 115vh;
+    }
+    #sec-line {
+        height: 5vh;
+        top: 150vh;
+    }
+    #thr-line {
+        height: 8vh;
+        top: 170vh;
+    }
+    #four-line {
+        height: 12vh;
+        top: 190vh;
+    }
+    #fif-line {
+        height: 15vh;
+        top: 205vh;
+    }
+    #six-line {
+        height: 17vh;
+        top: 230vh;
+    }
+    #sev-line {
+        height: 18vh;
+        top: 250vh;
+    }
+    #eig-line {
+        height: 22vh;
+        top: 270vh;
+    }
+    #nin-line {
+        height: 25vh;
+        top: 300vh;
+    }
+
+    #content {
+        height: 330vh;
+    }
+
+    #main-page {
+        height: 130vh;
+    }
+    #design-projects-section {
+        height: 60vh;
+    }
+    #ten-years-exp-section {
+        height: 20vh;
+    }
+    #ten-year-orange-section {
+        height: 7vh;
+    }
+    #ten {
+        bottom: 2vh;
+    }
+    #plus {
+        bottom: 8vh;
+        right: 17vw;
+    }
+    #years-exp {
+        bottom: 5vh;
+    }
+
+    #portfolio-page {
+        height: 120vh;
+    }
+
+    #blog-page {
+        height: 60vh;
+    }
+    #blog-section {
+        height: 50vh;
+    }
+
+    #contact-us-page {
+        height: 20vh;
+    }
+    #contact-us-page div p {
+        margin: 5vh 10vw;
+    }
+
+    #footer{
+        height: 40vh;
+    }
+    #first-footer-section {
+        height: 20vh;
+        margin-top: 4vh;
+    }
+    #first-footer-section > div:first-child {
+        gap: 4vh;
+    }
+    #first-footer-section > div:nth-child(2) {
+        gap: 4vh;
+    }
+    #first-footer-section > div:nth-child(3) {
+        gap: 4vh;
+    }
+    #second-footer-section {
+        margin-bottom: 1vh;
+    }
+
+
+}
+@media only screen and (max-width: 767px) {
+    html {
+        font-size: 5px;
+    }
+
+    #logo {
+        width: 20vw;
+    }
+
+    #container {
+        height: 305vh;
+    }
+
+    #first-line {
+        height: 2vh;
+        top: 105vh;
+    }
+    #sec-line {
+        height: 4vh;
+        top: 135vh;
+    }
+    #thr-line {
+        height: 7vh;
+        top: 155vh;
+    }
+    #four-line {
+        height: 11vh;
+        top: 170vh;
+    }
+    #fif-line {
+        height: 14vh;
+        top: 190vh;
+    }
+    #six-line {
+        height: 15vh;
+        top: 210vh;
+    }
+    #sev-line {
+        height: 16vh;
+        top: 242vh;
+    }
+    #eig-line {
+        height: 17vh;
+        top: 260vh;
+    }
+    #nin-line {
+        height: 20vh;
+        top: 280vh;
+    }
+
+    #content {
+        height: 305vh;
+    }
+
+    #main-page {
+        height: 120vh;
+    }
+    #design-projects-section {
+        height: 40vh;
+    }
+    #ten-years-exp-section {
+        height: 10vh;
+        width: 50%;
+    }
+    #ten {
+        bottom: 0.5vh;
+        right: 18vw;
+        font-size: 10rem;
+    }
+    #plus {
+        bottom: 4vh;
+        right: 16vw;
+        font-size: 7rem;
+    }
+    #years-exp {
+        bottom: 2vh;
+        right: 1vw;
+        font-size: 1.2rem;
+    }
+    #ten-year-orange-section {
+        height: 4vh;
+    }
+    #projects-in-queue-section {
+        width: 35%;
+    }
+
+    #portfolio-page {
+        height: 120vh;
+    }
+
+    #blog-page {
+        height: 50vh;
+    }
+    #blog-section {
+        height: 30vh;
+    }
+
+    #contact-us-page {
+        height: 15vh;
+    }
+    #contact-us-page div p {
+        margin: 4vh 8vw;
+    }
+
+    #footer {
+        height: 40vh;
+    }
+    #first-footer-section {
+        height: 15vh;
+    }
+    #first-footer-section > div:first-child {
+        gap: 2vh;
+    }
+    #first-footer-section > div:nth-child(2) {
+        gap: 2vh;
+    }
+    #first-footer-section > div:nth-child(3) {
+        gap: 2vh;
+    }
+    #second-footer-section {
+        margin-bottom: 1vh;
+    }
+
+ 
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    html {
+        font-size: 8px;
+    }
+
+    #logo {
+        width: 20vw;
+    }
+
+    #container {
+        height: 700vh;
+    }
+
+    #first-line {
+        top: 180vh;
+    }
+    #sec-line {
+        height: 8vh;
+        top: 250vh;
+    }
+    #thr-line {
+        height: 12vh;
+        top: 320vh;
+    }
+    #four-line {
+        height: 15vh;
+        top: 360vh;
+    }
+    #fif-line {
+        height: 20vh;
+        top: 420vh;
+    }
+    #six-line {
+        height: 25vh;
+        top: 480vh;
+    }
+    #sev-line {
+        height: 30vh;
+        top: 560vh;
+    }
+    #eig-line {
+        height: 35vh;
+        top: 600vh;
+    }
+    #nin-line {
+        height: 35vh;
+        top: 650vh;
+    }
+
+    #content {
+        height: 700vh;
+    }
+
+    #main-page {
+        height: 200vh;
+    }
+    #main-section  {
+        height: 100vh;
+    }
+    #design-projects-section {
+        height: 100vh;
+    }
+    #ten-years-exp-section {
+        height: 40vh;
+    }
+    #ten-year-orange-section {
+        height: 12vh;
+    }
+    #ten {
+        bottom: 1vh;
+    }
+    #plus {
+        bottom: 18vh;
+        right: 17vw;
+    }
+
+    #portfolio-page {
+        height: 360vh;
+    }
+
+    #blog-page {
+        height: 100vh;
+    }
+    #blog-section {
+        height: 90vh;
+    }
+
+    #contact-us-page {
+        height: 40vh;
+    }
+    #contact-us-page div p {
+        margin: 5vh 10vw;
+    }
+
+    #footer{
+        height: 100vh;
+    }
+    #first-footer-section {
+        height: 40vh;
+        margin-top: 15vh;
+    }
+    #first-footer-section > div:first-child {
+        gap: 8vh;
+    }
+    #first-footer-section > div:nth-child(2) {
+        gap: 8vh;
+    }
+    #first-footer-section > div:nth-child(3) {
+        gap: 8vh;
+    }
+    #second-footer-section {
+        margin-bottom: 2vh;
+    }
+}
+@media only screen and (max-width: 767px) and (orientation: landscape) {
+    #container {
+        height: 600vh;
+    }
+
+    #first-line {
+        top: 160vh;
+    }
+    #sec-line {
+        height: 8vh;
+        top: 230vh;
+    }
+    #thr-line {
+        height: 12vh;
+        top: 280vh;
+    }
+    #four-line {
+        height: 15vh;
+        top: 310vh;
+    }
+    #fif-line {
+        height: 20vh;
+        top: 350vh;
+    }
+    #six-line {
+        height: 25vh;
+        top: 400vh;
+    }
+    #sev-line {
+        height: 30vh;
+        top: 460vh;
+    }
+    #eig-line {
+        height: 35vh;
+        top: 500vh;
+    }
+    #nin-line {
+        height: 40vh;
+        top: 540vh;
+    }
+
+    #content {
+        height: 600vh;
+    }
+
+    #main-page {
+        height: 200vh;
+    }
+    #main-section  {
+        height: 100vh;
+    }
+    #design-projects-section {
+        height: 100vh;
+    }
+    #ten-years-exp-section {
+        height: 40vh;
+    }
+    #ten-year-orange-section {
+        height: 12vh;
+    }
+    #ten {
+        bottom: 5vh;
+        font-size: 13rem;
+    }
+    #plus {
+        bottom: 15vh;
+        right: 17vw;
+    }
+    #years-exp {
+        bottom: 10vh;
+        right: 7vw;
+        font-size: 2rem;
+    }
+
+    #portfolio-page {
+        height: 260vh;
+    }
+
+    #blog-page {
+        height: 100vh;
+    }
+    #blog-section {
+        height: 90vh;
+    }
+
+    #contact-us-page {
+        height: 40vh;
+    }
+    #contact-us-page div p {
+        margin: 5vh 10vw;
+    }
+
+    #footer{
+        height: 100vh;
+    }
+    #first-footer-section {
+        height: 40vh;
+        margin-top: 15vh;
+    }
+    #first-footer-section > div:first-child {
+        gap: 10vh;
+    }
+    #first-footer-section > div:nth-child(2) {
+        gap: 8vh;
+    }
+    #first-footer-section > div:nth-child(3) {
+        gap: 8vh;
+    }
+    #second-footer-section {
+        margin-bottom: 2vh;
+    }
+}
