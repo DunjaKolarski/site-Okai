@@ -37,10 +37,14 @@ a {
     align-items: center;
 }
 #logo {
+    height: 100%;
     width: 10vw;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+#logo img {
+    height: 80%;
 }
 #logo p span {
     font-weight: bold;
