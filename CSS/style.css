@@ -577,7 +577,7 @@ a {
 .blog-pic {
     width: 33vw;
 }
-#news-section > div > p {
+#news-section > div > a {
     width: 33vw;
     color: white;
     font-size: 1.5rem;
